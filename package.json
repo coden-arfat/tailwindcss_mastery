@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "build":"tailwindcss -i ./dist/input.css -o ./dist/style.css --watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/coden-arfat/tailwindcss_mastery/issues"
   },
-  "homepage": "https://github.com/coden-arfat/tailwindcss_mastery#readme"
+  "homepage": "https://github.com/coden-arfat/tailwindcss_mastery#readme",
+  "dependencies": {
+    "tailwindcss": "^3.0.24"
+  }
 }
